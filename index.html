@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Travelling Books | Photobooks personalizados</title>
+    <meta
+      name="description"
+      content="Convertí tus recuerdos y viajes en un photobook único, personalizado y lleno de personalidad."
+    />
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-inner">
+        <a class="brand" href="#inicio" aria-label="Travelling Books, inicio">
+          <img src="img/travelling-books-logo.png" alt="Travelling Books" />
+        </a>
+        <div class="nav-links">
+          <a href="#inicio">Inicio</a>
+          <a href="#photobooks">Photobooks</a>
+          <a href="#proceso">Cómo funciona</a>
+          <a href="#faq">Preguntas frecuentes</a>
+        </div>
+        <div class="nav-actions">
+          <a
+            class="btn btn-primary"
+            id="whatsapp-button"
+            href="https://wa.me/56957630091"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Compra ya</a
+          >
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-label="Abrir menú"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <div class="mobile-menu" id="mobile-menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#photobooks">Photobooks</a>
+        <a href="#proceso">Cómo funciona</a>
+        <a href="#faq">Preguntas frecuentes</a>
+      </div>
+    </nav>
+
+    <main>
+      <header id="inicio" class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">Photobooks maximalistas personalizados</p>
+          <h1>Convierte tus <em>recuerdos</em> en un photobook único</h1>
+          <p class="hero-text">
+            Diseñado con tu estilo, tus fotos y lleno de personalidad.
+          </p>
+          <div class="hero-buttons">
+            <a
+              class="btn btn-primary"
+              id="whatsapp-button"
+              href="https://wa.me/56957630091"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Compra ya</a
+            >
+            <a class="btn btn-secondary" href="#historia">Conoce más</a>
+          </div>
+        </div>
+        <div
+          class="hero-collage"
+          aria-label="Photobooks reales de Travelling Books"
+        >
+          <img
+            src="img/photobook-028.png"
+            alt="Tres photobooks de viajes, con Tailandia en primer plano"
+            class="hero-photo hero-photo-main"
+          />
+          <img
+            src="img/photobook-045.png"
+            alt="Portada completa del photobook Costa Rica, Panamá y Brasil"
+            class="hero-photo hero-photo-float"
+          />
+          <span class="sticker">Hecho<br />para tí</span>
+        </div>
+      </header>
+
+      <div class="marquee" aria-hidden="true">
+        <div>
+          100% PERSONALIZADO • HASTA 100 FOTOS • ENVÍOS A TODO CHILE • DESDE
+          $45.000 CLP • DISEÑO EDITORIAL • 100% PERSONALIZADO • HASTA 100 FOTOS
+          • ENVÍOS A TODO CHILE • 100% PERSONALIZADO • HASTA 100 FOTOS • ENVÍOS
+          A TODO CHILE • DESDE $45.000 CLP • DISEÑO EDITORIAL • 100%
+          PERSONALIZADO • HASTA 100 FOTOS • ENVÍOS A TODO CHILE • 100%
+          PERSONALIZADO • HASTA 100 FOTOS • ENVÍOS A TODO CHILE • DESDE $45.000
+          CLP • DISEÑO EDITORIAL • 100% PERSONALIZADO • HASTA 100 FOTOS • ENVÍOS
+          A TODO CHILE •
+        </div>
+      </div>
+
+      <section id="historia" class="section section-pink reveal">
+        <div class="story container narrow-grid">
+          <div class="story-images">
+            <img
+              src="img/photobook-003.jpg"
+              alt="Photobook abierto con recuerdos y fotografías de un viaje"
+              class="story-main"
+              loading="lazy"
+            />
+            <img
+              src="img/photobook-004.jpg"
+              alt="Photobook de Costa Rica sostenido frente a un paisaje tropical"
+              class="story-float"
+              loading="lazy"
+            />
+          </div>
+          <div class="story-copy">
+            <p class="eyebrow">Nuestra historia · Febrero 2024</p>
+            <h2>Nació en Costa Rica. <em>Viajó mucho más lejos.</em></h2>
+            <p>
+              Cuando quise crear un photobook de mis recuerdos que fuera
+              distinto —colorido, alegre y único— no encontré nada que
+              representara esa idea. Entonces decidí hacerlo yo misma.
+            </p>
+            <p class="muted">
+              Ver esos recuerdos cobrar vida en un objeto real fue el comienzo
+              de Travelling Books: cada viaje con una identidad propia y cada
+              libro diseñado desde cero.
+            </p>
+            <p class="signature">-Trinidad Urmeneta G.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="photobooks" class="section reveal">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Galería</p>
+              <h2>Nuestras <em>ediciones</em></h2>
+            </div>
+            <p class="hint">Toca una portada para ampliarla</p>
+          </div>
+          <div class="gallery-grid">
+            <button class="book" data-lightbox="0">
+              <span class="book-image"
+                ><img
+                  src="img/photobook-026.png"
+                  alt="Portada del photobook Buenos Aires, Argentina"
+                  loading="lazy" /></span
+              ><span class="book-caption"
+                ><b>Buenos Aires</b><small>Argentina</small></span
+              >
+            </button>
+            <button class="book" data-lightbox="1">
+              <span class="book-image"
+                ><img
+                  src="img/photobook-024.png"
+                  alt="Portada del photobook Italia, Europa"
+                  loading="lazy" /></span
+              ><span class="book-caption"
+                ><b>Italia</b><small>Europa</small></span
+              >
+            </button>
+            <button class="book" data-lightbox="2">
+              <span class="book-image"
+                ><img
+                  src="img/photobook-028.png"
+                  alt="Portada del photobook Rapa Nui, Chile"
+                  loading="lazy" /></span
+              ><span class="book-caption"
+                ><b>Rapa Nui</b><small>Chile</small></span
+              >
+            </button>
+            <button class="book" data-lightbox="3">
+              <span class="book-image"
+                ><img
+                  src="img/photobook-030.png"
+                  alt="Portada del photobook Tailandia"
+                  loading="lazy" /></span
+              ><span class="book-caption"
+                ><b>Tailandia</b><small>Sudeste Asiático</small></span
+              >
+            </button>
+            <button class="book" data-lightbox="4">
+              <span class="book-image"
+                ><img
+                  src="img/photobook-032.png"
+                  alt="Portada del photobook Grecia"
+                  loading="lazy" /></span
+              ><span class="book-caption"
+                ><b>Grecia</b><small>Atenas &amp; Mykonos</small></span
+              >
+            </button>
+            <button class="book" data-lightbox="5">
+              <span class="book-image"
+                ><img
+                  src="img/photobook-034.png"
+                  alt="Portada del photobook Europa"
+                  loading="lazy" /></span
+              ><span class="book-caption"
+                ><b>Europa</b><small>Edición de viaje</small></span
+              >
+            </button>
+            <button class="book" data-lightbox="6">
+              <span class="book-image"
+                ><img
+                  src="img/photobook-036.png"
+                  alt="Portada del photobook Caribe"
+                  loading="lazy" /></span
+              ><span class="book-caption"
+                ><b>Caribe</b
+                ><small>Aruba, Curaçao, Colombia &amp; Panamá</small></span
+              >
+            </button>
+            <button class="book" data-lightbox="7">
+              <span class="book-image"
+                ><img
+                  src="img/photobook-037.png"
+                  alt="Portada del photobook Perú"
+                  loading="lazy" /></span
+              ><span class="book-caption"
+                ><b>Perú</b><small>Machu Picchu &amp; Cusco</small></span
+              >
+            </button>
+            <button class="book" data-lightbox="8">
+              <span class="book-image"
+                ><img
+                  src="img/photobook-039.png"
+                  alt="Portada del photobook New York"
+                  loading="lazy" /></span
+              ><span class="book-caption"
+                ><b>New York</b><small>City</small></span
+              >
+            </button>
+            <button class="book" data-lightbox="9">
+              <span class="book-image"
+                ><img
+                  src="img/photobook-041.png"
+                  alt="Portada del photobook Italia"
+                  loading="lazy" /></span
+              ><span class="book-caption"
+                ><b>Italia</b
+                ><small>Roma, Assisi, Naples, Capri &amp; Bari</small></span
+              >
+            </button>
+            <button class="book" data-lightbox="10">
+              <span class="book-image"
+                ><img
+                  src="img/photobook-043.png"
+                  alt="Portada del photobook Cartagena"
+                  loading="lazy" /></span
+              ><span class="book-caption"
+                ><b>Cartagena</b><small>De Indias</small></span
+              >
+            </button>
+            <button class="book" data-lightbox="11">
+              <span class="book-image"
+                ><img
+                  src="img/photobook-045.png"
+                  alt="Portada del photobook Caribe & Rapa Nui"
+                  loading="lazy" /></span
+              ><span class="book-caption"
+                ><b>Caribe &amp; Rapa Nui</b
+                ><small>Edición de viaje</small></span
+              >
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-primary reveal">
+        <div class="container">
+          <p class="eyebrow light">Qué ofrecemos</p>
+          <h2>
+            Tu historia, en una <em class="em-naranja">edición irrepetible.</em>
+          </h2>
+          <div class="offer-grid">
+            <article class="offer">
+              <span>01</span>
+              <h3>Formato A4</h3>
+              <p>Photobooks personalizados en tamaño A4.</p>
+            </article>
+            <article class="offer">
+              <span>02</span>
+              <h3>100% personalizado</h3>
+              <p>Elige el estilo, colores, temática y detalles especiales.</p>
+            </article>
+            <article class="offer">
+              <span>03</span>
+              <h3>Hasta 100 fotos</h3>
+              <p>Cada photobook puede incluir hasta 100 fotos.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container two-col">
+          <div>
+            <p class="eyebrow">Por qué Travelling Books</p>
+            <h2>No existen dos viajes iguales. <em>Tampoco dos libros.</em></h2>
+            <div class="reasons">
+              <div class="reason">
+                <span>01</span>
+                <p>Diseñado desde cero</p>
+              </div>
+              <div class="reason">
+                <span>02</span>
+                <p>Una identidad para cada viaje</p>
+              </div>
+              <div class="reason">
+                <span>03</span>
+                <p>Tus recuerdos en un objeto físico</p>
+              </div>
+              <div class="reason">
+                <span>04</span>
+                <p>Maximalista, colorido y personal</p>
+              </div>
+            </div>
+          </div>
+          <div class="editorial-pair">
+            <img
+              src="img/photobook-006.jpg"
+              alt="Photobook Europa sostenido frente a un paisaje"
+              loading="lazy"
+            />
+            <img
+              src="img/photobook-005.jpg"
+              alt="Photobooks personalizados exhibidos en una repisa"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="proceso" class="section section-orange reveal">
+        <div class="container">
+          <p class="eyebrow">Cómo funciona</p>
+          <h2>Tu viaje en <em>6 pasos</em></h2>
+          <div class="process-grid">
+            <article class="process-step">
+              <span>01.</span>
+              <h3>Realizas el pago</h3>
+              <p>
+                El pedido comienza una vez confirmado el pago por transferencia.
+              </p>
+            </article>
+            <article class="process-step">
+              <span>02.</span>
+              <h3>Envías tus fotos</h3>
+              <p>
+                Compartes hasta 100 fotos en formato JPG o PNG mediante
+                <a
+                  class="wetransfer-link"
+                  href="https://wetransfer.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  WeTransfer ↗</a
+                >.
+              </p>
+              <p>
+                Si quieres un orden específico, numera cada foto
+                secuencialmente. De lo contrario, las ordeno yo.
+              </p>
+
+              <div class="wetransfer-help">
+                <button
+                  class="wetransfer-help-toggle"
+                  type="button"
+                  aria-expanded="false"
+                >
+                  <span>¿No sabes usar WeTransfer?</span>
+                  <span class="wetransfer-arrow">+</span>
+                </button>
+
+                <div class="wetransfer-help-content">
+                  <div class="wetransfer-step">
+                    <span>01</span>
+                    <p>
+                      Entra a <strong>WeTransfer</strong> y elige la opción para
+                      subir archivos.
+                    </p>
+                  </div>
+
+                  <div class="wetransfer-step">
+                    <span>02</span>
+                    <p>
+                      Selecciona todas las fotos que quieras incluir en tu
+                      Photobook.
+                    </p>
+                  </div>
+
+                  <div class="wetransfer-step">
+                    <span>03</span>
+                    <p>
+                      Elige la opción <strong>“Obtener enlace”</strong> para
+                      generar un link.
+                    </p>
+                  </div>
+
+                  <div class="wetransfer-step">
+                    <span>04</span>
+                    <p>
+                      Copia el enlace y <strong>mandánoslo</strong> junto con tu
+                      pedido.
+                    </p>
+                  </div>
+
+                  <a
+                    class="wetransfer-link"
+                    href="https://wetransfer.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Abrir WeTransfer ↗
+                  </a>
+                </div>
+              </div>
+            </article>
+            <article class="process-step">
+              <span>03.</span>
+              <h3>Hablamos por WhatsApp</h3>
+              <p>
+                Conversamos sobre el viaje, el estilo y los detalles que
+                imaginas.
+              </p>
+            </article>
+            <article class="process-step">
+              <span>04.</span>
+              <h3>Personalizamos</h3>
+              <p>
+                Diseñamos desde cero la portada, el interior y el mensaje de
+                contraportada.
+              </p>
+            </article>
+            <article class="process-step">
+              <span>05.</span>
+              <h3>Confirmas la impresión</h3>
+              <p>
+                Revisas el photobook y das la aprobación final para imprimir.
+              </p>
+            </article>
+            <article class="process-step">
+              <span>06.</span>
+              <h3>Envío o entrega</h3>
+              <p>
+                La impresión toma entre 5 y 12 días hábiles, más el tiempo de
+                entrega.
+              </p>
+            </article>
+          </div>
+          <div class="center">
+            <a
+              class="btn btn-primary"
+              id="whatsapp-button"
+              href="https://wa.me/56957630091"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Compra ya</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="personalizacion" class="section reveal">
+        <div class="pricing container small">
+          <div>
+            <p class="eyebrow">100% personalizado</p>
+            <h2>Configura tu <em>edición</em></h2>
+            <p class="muted large">
+              Elige estilos, colores, temática y detalles. Diseñamos juntos la
+              portada y el interior, incluyendo un mensaje en la contraportada.
+            </p>
+          </div>
+          <div class="specs">
+            <div><span>Formato</span><b>A4</b></div>
+            <div><span>Páginas</span><b>Mínimo 20</b></div>
+            <div><span>Capacidad</span><b>Hasta 100 fotos</b></div>
+            <div><span>Diseño</span><b>Personalizado</b></div>
+            <div>
+              <span>Páginas adicionales</span><b>Con costo adicional</b>
+            </div>
+          </div>
+          <a
+            class="btn btn-dark full"
+            id="whatsapp-button"
+            href="https://wa.me/56957630091"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Comenzar personalización</a
+          >
+        </div>
+      </section>
+
+      <section id="faq" class="section section-pink reveal">
+        <div class="container faq-container">
+          <p class="eyebrow center">Todo lo que necesitás saber</p>
+          <h2 class="center">Preguntas <em>frecuentes</em></h2>
+          <div class="faq-list">
+            <details open>
+              <summary>¿Qué incluye el photobook?<span>+</span></summary>
+              <div class="faq-answer">
+                <p>
+                  Un photobook tamaño A4 de 20 páginas, con capacidad para hasta
+                  100 fotos y diseño completamente personalizado.
+                </p>
+              </div>
+            </details>
+            <details>
+              <summary>¿Cuál es el precio?<span>+</span></summary>
+              <div class="faq-answer">
+                <p>
+                  El valor es desde $45.000 CLP. Cada página extra tiene un
+                  valor de $1.000 CLP.
+                </p>
+              </div>
+            </details>
+            <details>
+              <summary>¿Puedo elegir el diseño?<span>+</span></summary>
+              <div class="faq-answer">
+                <p>
+                  Sí. Puedes elegir estilo, colores, temática y detalles
+                  especiales: todos los photobooks son 100% personalizables.
+                </p>
+              </div>
+            </details>
+            <details>
+              <summary>¿Cuánto demora?<span>+</span></summary>
+              <div class="faq-answer">
+                <p>
+                  La impresión tarda entre 5 y 12 días hábiles, más el tiempo de
+                  envío o coordinación de entrega.
+                </p>
+              </div>
+            </details>
+            <details>
+              <summary>¿Hacen envíos?<span>+</span></summary>
+              <div class="faq-answer">
+                <p>
+                  Sí, realizamos envíos a todo Chile por Starken con 10% de
+                  descuento.
+                </p>
+              </div>
+            </details>
+            <details>
+              <summary>¿Cómo se realiza el pago?<span>+</span></summary>
+              <div class="faq-answer">
+                <p>
+                  El pago se realiza mediante transferencia bancaria. Una vez
+                  confirmado, comenzamos con tu pedido.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="final-cta container">
+          <div>
+            <p class="eyebrow light">Tu próximo capítulo</p>
+            <h2>¿Listo para convertir tu viaje en un <em>libro?</em></h2>
+            <a
+              class="btn btn-light"
+              id="whatsapp-button"
+              href="https://wa.me/56957630091"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Compra ya</a
+            >
+          </div>
+          <img
+            src="img/photobook-007.jpg"
+            alt="Pila de photobooks personalizados de distintos viajes"
+            loading="lazy"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-grid">
+        <div>
+          <img
+            class="footer-logo"
+            src="img/travelling-books-logo.png"
+            alt="Travelling Books"
+          />
+          <p>Photobooks maximalistas personalizados.</p>
+        </div>
+        <div>
+          <a href="#photobooks">Photobooks</a
+          ><a href="#proceso">Cómo funciona</a
+          ><a href="#faq">Preguntas frecuentes</a>
+        </div>
+        <div>
+          <a href="mailto:travellingbookscl@gmail.com">Mail</a
+          ><a
+            href="https://www.instagram.com/travellingbooks.cl/"
+            target="_blank"
+            rel="noreferrer"
+            >Instagram</a
+          ><a href="https://wa.me/56957630091" target="_blank" rel="noreferrer"
+            >WhatsApp</a
+          >
+        </div>
+      </div>
+      <p class="copyright">© 2026 Travelling Books · Chile</p>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox-close" type="button" aria-label="Cerrar">
+        ×
+      </button>
+      <button
+        class="lightbox-arrow lightbox-prev"
+        type="button"
+        aria-label="Portada anterior"
+      >
+        ←
+      </button>
+      <div class="lightbox-content">
+        <img id="lightbox-image" src="" alt="" />
+        <p id="lightbox-caption"></p>
+        <span id="lightbox-count"></span>
+      </div>
+      <button
+        class="lightbox-arrow lightbox-next"
+        type="button"
+        aria-label="Portada siguiente"
+      >
+        →
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

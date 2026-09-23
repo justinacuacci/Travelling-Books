@@ -1,0 +1,27 @@
+rosas:
+
+--color-50: #FEE7F1;
+--color-100: #FBBBD8;
+--color-200: #F990BF;
+--color-300: #F764A6;
+--color-400: #F54595; -> color del logo
+--color-500: #F20D74;
+--color-600: #C70A5F;
+--color-700: #9B084A;
+--color-800: #6F0635;
+--color-900: #440420;
+--color-950: #18010C;
+
+naranjas:
+
+--color-50: #FFEFE6;
+--color-100: #FFD3B8;
+--color-200: #FFB78A;
+--color-300: #FF914D; -> color del logo
+--color-400: #FF7E2E;
+--color-500: #FF6200;
+--color-600: #D15000;
+--color-700: #A33F00;
+--color-800: #752D00;
+--color-900: #471B00;
+--color-950: #1A0A00;
